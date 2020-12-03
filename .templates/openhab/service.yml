@@ -1,5 +1,5 @@
   openhab:
-    image: "openhab/openhab:2.4.0"
+    image: "openhab/openhab:latest"
     container_name: openhab
     restart: unless-stopped
     network_mode: host
